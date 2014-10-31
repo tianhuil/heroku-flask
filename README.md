@@ -11,7 +11,7 @@ cd heroku-flask
 virtualenv venv
 . venv/bin/activate
 ````
-2. Coding: write the contents of hello.py.  Notice that the `PORT` environement variable is set by Heroku in production and we default to 5000 for localhost.
+2. Coding: write the contents of `hello.py`.  Notice that the `PORT` environement variable is set by Heroku in production and we default to 5000 for localhost.
 3. `pip freeze > requirements.txt` to generate the requirements file for heroku provisioning.
 4. `echo 'web: python hello.py' > Procfile` to generate a procfile which tells heroku what to run on server start.
 5. To view in local mode, run either `python hello.py` or `foreman start web` (recommended).
