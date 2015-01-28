@@ -20,7 +20,9 @@ PYTHONPATH=''
 DEVELOPMENT=True
 ```
 Don't forget to add `.env` to `.gitignore`.
+
 6. To view in local mode, run either `python hello.py` or `foreman start web` (recommended).
+
 7. Deploy to production (note that you'll need to [get a heroku account](https://www.heroku.com/) and [install heroku tools](https://toolbelt.heroku.com/):
 ````python
 git init
@@ -29,6 +31,7 @@ git commit -m "Initial commit"
 heroku create
 git push heroku master
 ````
+
 8. `heroku open` to view in production
 
 This is based on [these](http://virantha.com/2013/11/14/starting-a-simple-flask-app-with-heroku/) (slightly) flawed instructions.
