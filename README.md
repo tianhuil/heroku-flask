@@ -20,8 +20,7 @@ PYTHONPATH=''
 DEVELOPMENT=True
 ```
 Don't forget to add `.env` to `.gitignore`.
-
-6. To view in local mode, run either `python hello.py` or `foreman start web` (recommended).
+1. To view in local mode, run either `python hello.py` or `foreman start web` (recommended).
 
 7. Deploy to production (note that you'll need to [get a heroku account](https://www.heroku.com/) and [install heroku tools](https://toolbelt.heroku.com/):
 ````python
